@@ -119,7 +119,8 @@ if ( current_user_can('edit_others_posts') ) {
 } // !current_user_can('edit_others_posts')
 
 else {
-	echo "<p>".esc_html_e("Sorry, you don't have permission to access this page.",'zotpress') ."</p>";
+	echo "<p>".esc_html__("Sorry, you don't have permission to access this page.",'zotpress') ."</p>";
 }
+
 
 ?>
